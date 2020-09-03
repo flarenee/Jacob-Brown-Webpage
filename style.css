@@ -1,0 +1,101 @@
+
+
+
+/* -  General Styles -*/
+
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+	background-image:url(images/backgrounds/white-triangle-369b8d2d.jpg);
+}
+
+header {
+	height: 140px;
+	background-color: #ffffff;
+	background-image:url(images/backgrounds/white-triangle-369b8d2d.jpg);
+}
+
+.logo {
+  font-family: 'Montserrat Alternates';
+  font-size: 72px;
+  color: #000000;
+  text-align: center;
+  letter-spacing: -3;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+header h2 {
+	font-family: 'Montserrat', serif;
+	color: #000000;
+	margin: 0px;
+	font-size: 18px;
+	text-align: center;
+}
+
+footer {
+	background-color: #000000;
+}
+
+section {
+	padding: 0 25%;
+  margin: 80px 0;
+}
+
+/* -------  Type ------- */
+
+h1, h2, h3 {
+  font-family: 'Montserrat Alternates', sans-serif;
+	color: #000000;
+  text-align: center;
+  font-weight: 500;
+}
+
+h1 { font-size: 28px; }
+h2 { font-size: 26px; }
+h3 { font-size: 18px; }
+
+p, li {
+ font-family: 'Montserrat', sans-serif;
+ line-height: 1.5em;
+ margin-bottom: 0;
+}
+
+a {
+	font-weight: 700;
+	text-decoration: none;	
+}
+a:link { color: #38786a; }
+a:visited { color: #38786a; }
+a:hover { color: #000000; }
+a:active { color: #000000; }
+a:hover {
+	text-decoration: underline;	
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+footer p {
+	color: #fff;	
+	text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+
+/* -------  Elements ------- */
+
+img, iframe { 
+  width: 100%;	
+  border-radius: 8px;
+  border: 1px solid #c5c0b8;
+} 
+
+/* -------  Modifier styles ------- */
+
+.border-top {
+  padding-top: 80px;
+  border-top: 2px solid #000000;
+}

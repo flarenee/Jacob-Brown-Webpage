@@ -2,230 +2,209 @@
 
 <html lang="en">
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>Jacob Brown | Full Stack Developer | Portfolio</title>
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700&family=Montserrat:wght@300;700&family=Nanum+Pen+Script&display=swap"
-	 rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<body>
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
 
-	<header>
-		<div class="logo">Jacob Brown</div>
-    <nav>
-			<ul id="menu">
-				<li><a href="#home">Home</a></li>
-				<li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#projects">Projects</a></li>
-			</ul>
-		</nav>
-	</header>
+    <!-- Font Icons -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
 
-	<main>
+    <!-- Linking To CSS Page -->
+    <link rel="stylesheet" href="css/style.css" />
 
-		<!-- Introduction -->
-		<section id="home">
-      <div class="group">
-        <div class="item">
-          <img 
-            src="images/introduction/JacobBrown.jpg"
-            alt="Jacob Brown - Profile Photo" 
-            width="400px"
-            height="auto">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+
+      <!-- Menu/nav button -->
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <!--nav-->
+        <ul class="nav__list">
+          <!--  Home -->
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+
+          <!--  services -->
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Services</a>
+          </li>
+
+          <!--  about -->
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+
+          <!--  contact -->
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction Section -->
+    <section class="intro" id="home">
+      <!-- main class -->
+      <h1 class="section__title section__title--intro">
+        Hi, I'm <strong>Jacob Brown</strong>
+      </h1>
+      <img
+        src="images/intro-photo.jpg"
+        alt="Jacob Brown's Picture"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- Services Section -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <!-- Service One -->
+      <div class="services">
+        <div class="service">
+          <p class="service-left">
+              I love helping clients by making projects more organized
+              and efficient. I enjoy making clean simple code that improves the user experience.
+              I appreciate working on a team of great programmers that are as enthusiastic about coding as I am!
+          </p>
+          
+          <p class="service-left">Here are software development tools I have used:
+            <ul class="skills-list">
+              <li>Javascript (ES6+)</li>
+              <li>HTML</li>
+              <li>CSS</li>              
+              <li>Node.js</li>
+              <li>Bootstrap</li>              
+              <li>React</li>
+            </ul>
+          </p>
         </div>
+      </div>
 
-        <div class="item">
-          <h1>Hi. I'm Jacob Brown!</h1>
-          <p>Currently living in Kansas City, Missouri. 
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">About me</h2>
+
+      <div class="about-me__body">
+        <p>
+          Hi there! I'm Jacob, a Software Engineer currently living in Kansas City, Mo. 
+        </p>
+        <p>
             Jacob has worked in many different backgrounds gaining insider knowledge
             of operations of large companies. Security, manufacturing, distribution,
             and Supply/Demand Analytics. His commonly used applications
-            are Visual Studio Code, Slack, Zoom, Discord, Unity, Fillmora 9, Lightroom, Adobe,
+            are Visual Studio Code, Slack, Zoom, Discord, Unity, Filmora 9, Lightroom, Adobe,
             Audacity, Inkscape, and Plural Sight.
-            </p>
-          <p>Jacob has completed over 500+ hours of community service. He also achieved the
-            rank of Eagle Scout through Boy Scouts Of America. While in his security position
-            he recovered over $100,000 dollars in stolen money and merchandise. 
-            Jacob has worked with Amazon, UPS, Walmart in management positions.</p>
-        </div>
-      </div>
-    </section>
-	  <hr>
-    <!-- About Me -->
-    <section id="about" class="dark-background">
-      <div class="group">
-        <div class= "item">
-          <h2>About me</h2>
-          <div>
-            <p>I love helping cleints by making projects more organize
-              and efficent. I enjoy making clean simple code that improves the user experince.
-              I appericate working on a team of great programmers that are as enthusiastic about coding as I am!
-            </p>
-            <p>When I'm not coding,
-              my family and I love to adventure and go to new places!
-              I also like skateboard, learn about game design, and
-              create content for my YouTube channel.
-              Have you seen my Youtube Channel? Click here to check it out!
-            </p>
-          </div>
-        </div>
-        
-        <div class= "item">
-          <img 
-            class="image-enhanced"
-            src="images/familyPhoto.JPG"
-            alt="familyphoto"
-            width="300px"
-            height="auto"> 
-        </div>
+          </p>
+          
+          <p>When I'm not coding,
+            my family and I love to adventure and go to new places!
+            I also like skateboard, learn about game design, and
+            create content for my YouTube channel. link is in the footer.
+          </p>       
       </div>
 
-      <div class="group-center">
-        <a href="https://www.youtube.com/flarenee" target="_blank">
-          <img 
-          class="image-enhanced"
-          src="images/FlareNee.png"
-          alt="Jacob Brown - YouTube Channel"
-          width="400px"
-          height="auto">
+      <img
+        src="images/my-work-section.JPG"
+        alt="my work section"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work Section -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">projects I've worked on</p>
+      <div class="portfolio">
+        <!-- Portfolio Image One -->
+        <a href="https://github.com/flarenee/project-local-library" class="portfolio__item" target="_blank">
+          <img
+            src="images/local-library.png"
+            alt="Picture One"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio Image Two -->
+        <a href="portfolio.html" class="portfolio__item">
+          <img
+            src="images/placeholder.png"
+            alt="Picture Two"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio Image Three -->
+        <a href="portfolio.html" class="portfolio__item">
+          <img
+            src="images/placeholder.png"
+            alt="Picture Three"
+            class="portfolio__img"
+          />
         </a>
       </div>
-
-    </section>
-      
-    <hr>
-          <!-- projects -->
-          <section id="projects">
-            <h2>Projects</h2>
-            <br/>
-            <div class="group">
-              <div class="item">
-                <h3>Skatepark Review App</h3>
-                <p>This app gives a review of the most popular skateparks
-                  in Kansas City to help skateboard enthusiast find areas to skate. 
-                  It also includes a rating scale based on 
-                  the features of the park and the approximate 
-                  level of difficulty for the skater, and spectacular fly over
-                  reviews of each park using the latest drone technology.
-                  This app was developed using Full Stack Web development.
-                  
-            <p><a href="https://github.com/flarenee"  target="_blank">click here for project's GitHub repo link </a><p>
-            <p><a href="">click here to access the live, working app</a><p></p>
-                </p>
-                <br/>
-                <p>
-                  For more information on the MavicMini Drone click the image below.
-                </p>
-                <a href="https://www.dji.com/mavic-mini?site=brandsite&from=nav"  target="_blank"
-                  target="_blank">
-                  <img 
-                  class="image-enhanced"
-                  src="images/MavicMini.png"
-                  alt="MavicMini website"
-                  width="200px"
-                  height="auto">
-                </a>
-              </div>
-              <div class="item">
-                <iframe 
-                  width="560" 
-                  height="315" 
-                  src="https://www.youtube.com/embed/6Kh_nNDp4Jo"
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowfullscreen>
-                </iframe>
-              </div>
-            </div>
-            <div class="group">
-              <div class="item">      
-                <iframe 
-                  width="560" 
-                  height="315" 
-                  src="https://www.youtube.com/embed/6V1Gted-PBQ" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowfullscreen>
-                </iframe>
-              </div>     
-              <div class="item">
-                <h3>Laser Cut Projects App</h3>
-                <p>This app showcases simple laser cut projects
-                  using a GlowForge laser/engraver to inspire GlowForge enthusiasts. It discusses set
-                  up and demonstrates how to put together each project
-                  in an entertaining and eductional format. It also
-                  includes tips and techniques of proper cleaning
-                  and maintance.
-                  This app was developed using Full Stack Web development.
-                </p>
-                <p><a href="https://github.com/flarenee"  target="_blank">click here project's GitHub repo link</a><p>
-                <p><a href="">click here to access the live, working app</a><p></p>
-                <br/>
-                <p>
-                  For more information on the GlowForge click the image below.
-                </p>
-                <a href="https://glowforge.us/f/EKOLAJWA"  target="_blank"
-                  target="_blank">
-                  <img 
-                  class="image-enhanced"
-                  src="images/GlowForge.jpg"
-                  alt="GlowForge website"
-                  width="200px"
-                  height="auto">
-                </a>
-              </div>
-      
-            </div>
-          </section>
-          <br/>
-      <!-- Contact -->
-    <section id="contact">
-			<h2>Contact</h2>
-			<div class="group">
-				<div class="item">
-        <form 
-          action="mailto:flarenee13gmail.com" 
-          method="POST"
-          enctype=”multipart/form-data” 
-          name=”EmailForm”>
-          <label for="user-name">Name:</label>
-          <input id="user-name" type="text" name="name">
-          <label for="user-email">Email:</label>
-          <input id="user-email" type="text" name="email">
-          <label for="user-message">Message:</label>
-          <textarea id="user-message" name="message"></textarea>
-          <button type="submit">Submit</button>
-        </form>
-				</div>
-				<div class="item item-double">
-          <p>Phone #: <a href="tel:816-868-1437">816.868.1437</a></p>
-          <p>Email: <a href="">flarenee13@gmail.com</a></p>
-          <p>GitHub: <a href="https://github.com/flarenee"  target="_blank">https://github.com/JacobBrown</a><p>
-          <p>LinkedIn: <a href="https://www.linkedin.com/in/jacob-brown-9b96881b4/"  target="_blank">  https://www.linkedin.com/in/JacobBrown</a><p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d396371.6812947753!2d-94.85590486736366!3d39.09158371993969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0f75eafe99997%3A0x558525e66aaa51a2!2sKansas%20City%2C%20MO!5e0!3m2!1sen!2sus!4v1611286461546!5m2!1sen!2sus"  target="_blank"
-            width="400" 
-            height="300" 
-            frameborder="0" 
-            style="border:0;" 
-            allowfullscreen="" 
-            aria-hidden="false" 
-            tabindex="0"></iframe>
-				</div>
-			</div>
     </section>
 
-	</main>
-	
-    <footer>
-      <p>© Jacob Brown</p>
+    <!-- Footer Section -->
+    <footer class="footer" id="contact">
+      <a href="mailto:flarenee13@gmail.com" class="footer__link"
+        >flarenee13@gmail.com</a
+      >
+
+      <!-- Social  Media Section -->
+      <ul class="social-list">
+        <!-- Social Link One, LinkedIn -->
+        <li class="social-list__item">
+          <a
+            class="social-list__item"
+            href="https://www.linkedin.com/in/jacob-brown-9b96881b4/" target="_blank"
+          >
+            <i class="fab fa-linkedin-in"></i
+          ></a>
+        </li>
+
+        <!-- Social Link Two, Github -->
+        <li class="social-list__item">
+          <a class="social-list__item" href="https://github.com/flarenee" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <!-- Social Link three, Github -->
+        <li class="social-list__item">
+          <a class="social-list__item" href="https://www.youtube.com/flarenee" target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </li>
+
+      </ul>
     </footer>
-    
-    <script src="script.js"></script>
-</body>
+    <!-- Top Scroll Button -->
+    <button class="scrollToTopBtn">
+      <i class="fas fa-angle-double-up fa-2x"></i>
+    </button>
 
+    <script src="js/index.js"></script>
+  </body>
 </html>

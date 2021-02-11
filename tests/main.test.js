@@ -1,0 +1,1 @@
+const averageScore = require("../src/main");

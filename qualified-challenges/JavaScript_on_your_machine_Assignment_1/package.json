@@ -1,0 +1,19 @@
+{
+  "name": "javascript-on-your-machine",
+  "version": "1.0.0",
+  "description": "this is a description",
+  "scripts": {
+    "start": "node ./src/solution.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "faker": "^4.1.0"
+  },
+  "keywords": [],
+  "author": "Jacob",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}

@@ -253,27 +253,6 @@ header {
   bottom: 6px;
 }
 
-/* Typewritter Effect */
-.line-1 {
-  position: relative;
-  top: 50%;
-  width: 24em;
-  margin: 0 auto;
-  border-right: 2px solid rgba(255, 255, 255, 0.75);
-  font-size: 180%;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  transform: translateY(-50%);
-}
-
-/* Animation */
-.anim-typewriter {
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-    blinkTextCursor 500ms steps(44) infinite normal;
-
-  font-weight: var(--fw-bold);
-}
 @keyframes typewriter {
   from {
     width: 0;
